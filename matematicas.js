@@ -16,3 +16,9 @@ function matematicas(op, a, b) {
 
     return resultado;
 }
+
+let opc = prompt("Ingrese la operacion");
+let num1 = parseInt(prompt("Ingrese el primer numero"));
+let num2 = parseInt(prompt("Ingrese el segundo numero"));
+
+alert(matematicas(opc, num1, num2));
