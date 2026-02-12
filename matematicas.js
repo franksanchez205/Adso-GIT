@@ -17,7 +17,8 @@ function matematicas(op, a, b) {
     return resultado;
 }
 
-let opc = prompt("Ingrese la operacion");
+let opc = prompt(`Ingrese la operacion \n1. suma \n2. resta \n3. multiplicacion \n4. division`);
+
 let num1 = parseInt(prompt("Ingrese el primer numero"));
 let num2 = parseInt(prompt("Ingrese el segundo numero"));
 
